@@ -1,0 +1,53 @@
+font-family: 'EB Garamond', sans-serif;
+body{font-family: 'Advent Pro', sans-serif;}
+font-family: 'Aguafina Script', sans-serif;
+
+
+.mobile-first-component {
+  width: 100%;
+}
+
+@media screen and (min-width: 992px) {
+   .mobile-first-component {
+      width: 50%;
+   }
+}
+
+@media screen and (min-width: 1200px) {
+   .mobile-first-component {
+      width: 33%;
+   }
+}
+body{background-color
+b(229,235,238) 50%, rgb(245,247,249) 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(top, rgb(217,218,219) 0%, rgb(229,235,238) 50%, rgb(245,247,249) 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(top, rgb(217,218,219) 0%, rgb(229,235,238) 50%, rgb(245,247,249) 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(217,218,219)), color-stop(50, rgb(229,235,238)), color-stop(100, rgb(245,247,249)));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top, rgb(217,218,219) 0%, rgb(229,235,238) 50%, rgb(245,247,249) 100%);
+
+/* W3C Markup */ 
+background-image: linear-gradient(to bottom, rgb(217,218,219) 0%, rgb(229,235,238) 50%, rgb(245,247,249) 100%);
+}
+.floating-box {    
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding:25px;
+    margin: 10px;
+    border: 3px solid #73AD21;  
+}
+}
+
+.after-box {
+    clear: left;
+    border: 3px solid red;      
+}
+
