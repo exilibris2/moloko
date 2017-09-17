@@ -7,34 +7,6 @@
       content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
 
 <title>Demo page</title>
- <script>function stop(){
-    return 1;
-    }
-    counter = 0;
-    function powieksz(){
-    if(counter>20){
-    stop();
-    }
-    else{
-       document.getElementById('logo').width++;
-       document.getElementById('logo').height++;
-       counter++;
-       setTimeout("powieksz()",100);
-       }
-    }
-    function pomniejsz()
-    {
-    if(counter<=0){
-    stop();
-    }
-    else{
-       document.getElementById('logo').width--;
-       document.getElementById('logo').height--;
-       counter--;
-       setTimeout("pomniejsz()",100);
-       }
-    }
-    </script>
 </head>
 <style>
 *body{}
@@ -69,7 +41,7 @@ position: relative;left: 70%;
 <header>
 <nav class="menu">
 <ul>
-<img id="logo" src="tree-2647471_1920.png" width="35%" height="35%" border="0" onmouseover="powieksz()" onmouseout="pomniejsz()"alt="tree"></img>
+<img id="logo" src="tree-2647471_1920.png" width="25%" height="25%" alt="tree"></img>
 <ol>
 <li>Home</li>
 <li>About</li>
